@@ -2,7 +2,8 @@ My Python tracing utility that measures the execution time of specific functions
 The utility is implemented without modifying the target functions directly - there is only one call at the beginning of "main.py". This also ensures minimal overhead when tracing is disabled.
 The relevant files are:
 1. Profiler.py
-2. main.py - the profiler is called at the beginning. 
+2. main.py - the profiler is called at the beginning.
+3. config.txt - there are typed functions to measure in form: "moduleName.function_name"
 
 
 Follow these steps to set up and run the project locally.
